@@ -4,12 +4,6 @@
 
 Ning Han ,	Varshini Sriram ,	Henry Tessier ,	Jingnan Yang
 
-#Contributions of each member : 
-Ning Han: A,B,C,D,E,H,I,J,K feature and the linear model 
-Varshini Sriram: G and model improvements 
-Henry Tessier: Number of characters, the setence token and word token package set up and final report 
-
-
 #Goal: 
  
  Build a non-parametric model : linear regression model and apply the cross validation. 
@@ -41,7 +35,12 @@ Henry Tessier: Number of characters, the setence token and word token package se
       RFECV: We firstly tried RFECV method, the result is to keep all the varialbes, so we keep all the variables. We calculated the mse for this model. 
       LassoCV: We then started to use LassoCV method to build the second model and calculated the mse based on this model. 
       Lasso: At the end we used lasso to build the thrid model and calculated the mse based on this model. 
-      We picked the best model based on their mse score. 
+      We picked the best model based on their mse score.
+#Contributions of each member : 
+Ning Han: A,B,C,D,E,H,I,J,K feature and the linear model 
+Varshini Sriram: G and model improvements 
+Henry Tessier: Number of characters, the setence token and word token package set up and final report          
+      
 #Results: 
    The best score: 4.89836
 
@@ -50,8 +49,8 @@ Henry Tessier: Number of characters, the setence token and word token package se
     2) Based on the distribution of age, the linear regression model doesn't seem like to be the best fit. Maybe try Knn in the future. 
     3) Cross Validation: we used the cross validation for our feature selection, we can also use K-fold cross validation to evalute other model . 
     
-    
-    
+
+
       
       
    
