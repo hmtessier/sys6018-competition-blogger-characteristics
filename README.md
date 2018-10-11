@@ -4,6 +4,12 @@
 
 Ning Han ,	Varshini Sriram ,	Henry Tessier ,	Jingnan Yang
 
+#Contributions of each member : 
+Ning Han: A,B,C,D,E,H,I,J,K feature and the linear model 
+Varshini Sriram: G and model improvements 
+Henry Tessier: Number of characters, the setence token and word token package set up and final report 
+
+
 #Goal: 
  
  Build a non-parametric model : linear regression model and apply the cross validation. 
@@ -22,11 +28,11 @@ Ning Han ,	Varshini Sriram ,	Henry Tessier ,	Jingnan Yang
     
      Other features generated based on other variables: 
      H. Number of posts: number of posts each unique user posted.
-     H. Day of week: the weekday for each post date. 
+     I. Day of week: the weekday for each post date. 
      Based on the understanding of the problem, we think sign is not important to predict age, so we didn't include the feature. 
      The other features in the model are: 
-     I: Topics
-     J: Gender
+     J: Topics
+     K: Gender
      Because both of the are nominal variables, we create dummy varaible for both of them. (also the H: Day of Week). 
    2) Variable Transformation 
       We normalize age, number of urls, number of hashtag, number of Puncuation and several other variables based on their skewness. 
