@@ -6,7 +6,7 @@ Ning Han ,	Varshini Sriram ,	Henry Tessier ,	Jingnan Yang
 
 #Goal: 
  
- Build a non-parametric model : linear regression model and apply the cross validation. 
+ Build a parametric model : linear regression model and apply cross validation. 
  
 #Process: 
   1) Data Cleaning and Feature Engineering: 
