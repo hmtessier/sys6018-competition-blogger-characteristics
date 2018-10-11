@@ -28,7 +28,7 @@ Ning Han ,	Varshini Sriram ,	Henry Tessier ,	Jingnan Yang
      J: Topics
      K: Gender
      Because both of the are nominal variables, we create dummy varaible for both of them. (also the H: Day of Week). 
-   2) Variable Transformation 
+   2) Variable Transformation:
       We normalize age, number of urls, number of hashtag, number of Puncuation and several other variables based on their skewness. 
    3) Feature selection: 
       We firstly split our train data to train and test subsets. 
